@@ -27,43 +27,28 @@ body {
 }
 
 .commento-root * {
+  background: #393939;
   color: white !important;
-  font-family: "Comic Sans", Courier, monospace !important;
-}
-
-/* .commento-timeago::before,
-.commento-score,
-.commento-option-downvote,
-.commento-option-upvote, */
-#commento-sort-policy-score-desc {
-  display: none !important;
+  padding: 20px !important;
 }
 
 /* for demo only - usually only mods can see */
-.commento-mod-tools {
+/* .commento-mod-tools {
   display: block !important;
+} */
+
+.commento-avatar-img {
+  border-radius: 6px 0px 6px 6px !important;
+}
+
+.commento-timeago::before {
+  content: "\00a0" !important;
 }
 
 .commento-option-collapse,
 .commento-option-uncollapse,
 .commento-option-remove {
   background: white !important;
-}
-
-/* .commento-option-button .commento-option-edit,
-.commento-option-button .commento-option-reply,
-.commento-option-button .commento-option-collapse,
-.commento-option-button .commento-option-uncollapse,
-.commento-option-button .commento-option-remove {
-  position: relative !important;
-  right: 0px !important;
-} */
-
-.commento-options {
-  width: 100px !important;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
 }
 
 .commento-card {
