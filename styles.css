@@ -29,6 +29,9 @@ body {
 .commento-root * {
   background: #393939;
   color: white !important;
+}
+
+.commento-root {
   padding: 20px !important;
 }
 
@@ -36,6 +39,11 @@ body {
 /* .commento-mod-tools {
   display: block !important;
 } */
+
+/* top header */
+.commento-logged-container {
+  display: none;
+}
 
 .commento-avatar-img {
   border-radius: 6px 0px 6px 6px !important;
