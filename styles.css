@@ -1,0 +1,105 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-pane {
+  grid-column: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-pane img {
+  height: auto;
+  width: 400px;
+}
+
+.right-pane {
+  grid-column: 2;
+  padding: 40px;
+  min-height: 940px;
+}
+
+.commento-root * {
+  color: white !important;
+  font-family: "Comic Sans", Courier, monospace !important;
+}
+
+/* .commento-timeago::before,
+.commento-score,
+.commento-option-downvote,
+.commento-option-upvote, */
+#commento-sort-policy-score-desc {
+  display: none !important;
+}
+
+/* for demo only - usually only mods can see */
+.commento-mod-tools {
+  display: block !important;
+}
+
+.commento-option-collapse,
+.commento-option-uncollapse,
+.commento-option-remove {
+  background: white !important;
+}
+
+/* .commento-option-button .commento-option-edit,
+.commento-option-button .commento-option-reply,
+.commento-option-button .commento-option-collapse,
+.commento-option-button .commento-option-uncollapse,
+.commento-option-button .commento-option-remove {
+  position: relative !important;
+  right: 0px !important;
+} */
+
+.commento-options {
+  width: 100px !important;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.commento-card {
+  border-left: 2px solid white !important;
+}
+
+.commento-sort-policy-button-selected {
+  color: white !important;
+}
+
+.commento-submit-button {
+  background: gray !important;
+}
+
+.commento-main-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.commento-root textarea {
+  background: gray !important;
+  color: white;
+}
+
+.commento-root textarea::placeholder {
+  color: white !important;
+}
+
+.commento-root .commento-button-margin {
+  order: 1 !important;
+}
+
+.commento-comments {
+  margin-bottom: 40px;
+}
+
+.commento-sort-policy-buttons-container {
+  padding: 0 !important;
+}
