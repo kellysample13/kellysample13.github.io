@@ -32,7 +32,13 @@ body {
 }
 
 .commento-root {
-  padding: 20px !important;
+  background: #393939;
+  padding: 10px 20px !important;
+}
+
+.commento-footer {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 /* for demo only - usually only mods can see */
